@@ -217,7 +217,7 @@ def tts():
 
     return jsonify(result_dict)
 
-def ClearWav(directory):
+def ClearWav(directory):# ceshiyx 
     # 获取../static/wavs目录中的所有文件和目录
     files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 
