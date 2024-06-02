@@ -11,7 +11,7 @@ torch.set_float32_matmul_precision('high')
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 VERSION='0.8'
 
-def get_executable_path():
+def get_executable_path():# fuckfuck
     # 这个函数会返回可执行文件所在的目录
     if getattr(sys, 'frozen', False):
         # 如果程序是被“冻结”打包的，使用这个路径
